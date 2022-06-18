@@ -78,8 +78,10 @@
 
 @media screen and (max-width: 991px) {
     .services {
-        margin: 100px 0;
         padding: 0 10%;
+    }
+    .services h1 {
+        margin: 100px 0;
     }
     .services-content {
         width: 100%;
