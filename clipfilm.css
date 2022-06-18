@@ -17,11 +17,15 @@
 }
 .quote {
     position: absolute;
+    padding: 0 3%;
     top: 100px;
     color: rgba(255, 255, 255, 0);
 }
 
 @media screen and (max-width: 991px) {
+    .hero {
+        height: 600px;
+    }
     .clip {
         transform: translateX(-150%);
     }
